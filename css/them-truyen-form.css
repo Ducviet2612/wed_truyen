@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Phông nền trắng */
+    padding: 20px;
+    margin: 0;
+    color: #333; /* Màu chữ tối */
+}
+.form-container {
+    background-color: #fff; /* Nền form trắng */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Mềm mại, nhẹ nhàng */
+    max-width: 600px;
+    margin: 50px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form-container:hover {
+    transform: scale(1.02); /* Tạo hiệu ứng khi di chuột vào form */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Màu xanh lá tươi sáng */
+}
+label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+input, select, textarea, button {
+    width: 100%; /* Đảm bảo tất cả các phần tử có chiều rộng 100% */
+    padding: 12px;
+    margin-bottom: 15px; /* Giảm bớt khoảng cách giữa các trường */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến kích thước */
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50; /* Màu xanh lá khi focus */
+}
+button {
+    background-color: #ff5722; /* Màu cam tươi sáng */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    background-color: #e64a19; /* Màu cam đậm khi hover */
+    transform: scale(1.05); /* Tạo hiệu ứng phóng to */
+}
+button:active {
+    background-color: #d84315; /* Màu cam đậm hơn khi nhấn */
+}
+.input-file {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.input-file input {
+    flex: 1;
+}
+.go-back {
+    text-align: center;
+    margin-top: 20px;
+}
+.go-back a {
+    color: #4CAF50; /* Màu xanh lá */
+    font-weight: bold;
+    text-decoration: none;
+}
+.go-back a:hover {
+    text-decoration: underline;
+}

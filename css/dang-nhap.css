@@ -1,0 +1,43 @@
+body  {
+    font-family: Arial, sans-serif;
+    background: url(https://img.wattpad.com/a637b05a17ff39438d01432e724426ac1de84f7b/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4f69327a3636466f69494a6137673d3d2d313132393133313139362e313661343461376361643663393963343535343235373235303136352e6a7067) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: #0056b3;
+}

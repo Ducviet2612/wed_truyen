@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+}
+.container a {
+    display: block; /* Đặt display thành block để xếp theo hàng dọc */
+    padding: 15px 30px;
+    margin: 10px auto; /* Canh giữa và tạo khoảng cách giữa các phần tử */
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 200px; /* Thiết lập chiều rộng cố định cho các liên kết */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.container a:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+.container a:active {
+    background-color: #388e3c;
+}
+.container a:focus {
+    outline: none;
+}
